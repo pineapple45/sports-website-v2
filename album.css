@@ -3,11 +3,6 @@ html{
   scroll-behavior: smooth;
 }
 
-.hidden{
-  overflow: hidden;
-}
-
-
 .jumbotron {
   padding-top: 3rem;
   padding-bottom: 3rem;
