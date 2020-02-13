@@ -1,3 +1,8 @@
+
+.hidden{
+  overflow: hidden;
+}
+
 .box {
   margin: 40vh auto;
   width: 40px;
