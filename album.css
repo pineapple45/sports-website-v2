@@ -83,7 +83,8 @@ background-attachment: fixed;
  /* Edit updatable News Images */
 
 .upd-img{
-  width: 25rem;
+/*   width: 25rem; */
+  width: 65%;
   border: 4px solid #8e8e8e;
   border-radius: 10px;
 }
