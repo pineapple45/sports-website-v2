@@ -1,0 +1,206 @@
+/* This is to implement smooth scrolling effect */
+html{
+  scroll-behavior: smooth;
+}
+
+
+.jumbotron {
+  /* padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0; */
+  background-color: #fff;
+  /* height: 100vh; */
+
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+#main-banner h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 2rem;
+  font-family: 'Righteous', cursive;
+}
+
+.jumbotron p{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+  /* This also make jumbotron of full height */
+  margin-top: 20vh;
+}
+
+/* Put background image in banner */
+
+.banner{
+/* background-image: url("https://images.unsplash.com/photo-1485388276992-0ce5ce2d6981?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1999&q=80"); */
+/* background-image: url("././banner-images/banner.jpg"); */
+background-image: url("https://images.unsplash.com/photo-1534185468818-f3eba1d779c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80");
+background-size: cover;
+object-fit: cover;
+width: auto;
+height: 100vh;
+background-attachment: fixed;
+}
+
+
+
+
+.container-header{
+  color: #636363;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  margin: 30px 0;
+}
+
+/* Positioning the events container */
+
+.events{
+  position: relative;
+  bottom: 8rem;
+}
+
+.events h1{
+  color: #636363;
+}
+
+ /* Edit updatable News Images */
+
+ .upd-img{
+  height: 25rem;
+  width: auto;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.carousel-text-body{
+  width: 70%;
+  margin: 30px auto;
+}
+
+
+.carousel-control-prev , .carousel-control-next{
+  position: absolute;
+  top: 0;
+  opacity: 1;
+}
+
+.carousel-control-prev > span{
+  position: relative;
+  bottom: 50px;
+  left: -20px;
+}
+
+.carousel-control-next > span{
+  position: relative;
+  bottom: 50px;
+  right: -20px;
+
+}
+
+/* .carousel-control-next-icon , .carousel-control-prev-icon{
+  border: 2px solid red;
+  border-radius: 50%;
+} */
+
+/* Edit Sports Heading */
+
+.col-md-4{
+  width: 350px;
+  height: auto;
+  margin: auto;
+}
+
+
+.card{
+  text-align: center;
+} 
+
+.card-img-container{
+  height: 400px;
+  width: 350px;
+  margin: 0 auto ;
+}
+
+.card-img-container > img{
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .upd-img{
+    height: 20rem;
+    width: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .card-img-container{
+    height: 300px;
+    width: 100%;
+    margin: 0 auto ;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card-img-container{
+    height: 200px;
+    width: 100%;
+    margin: 0 auto ;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .card-img-container{
+    height: 400px;
+    width: 100%;
+    margin: 0 auto ;
+  }
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #cacaca;
+}
+
+footer p {
+  margin-bottom: .10rem;
+}
+
+/* position footer contact Email */
+
+.contact{
+  margin-left: 1.5%;
+}
+/* banner-icon */
+
+.fa-camera{
+  font-size: 5rem;
+}
+
+/* Modify footer social icons */
+.footer-icons{
+  font-size: 2rem;
+  padding: 0.8rem;
+}
+
+.footer-icons:hover{
+  color: #00ca00;
+}
+
