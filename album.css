@@ -201,6 +201,9 @@ footer p {
 }
 
 .footer-icons:hover{
-  color: #00ca00;
+  color: #00026b;
 }
 
+.footer-icons:active{
+  color: #00026b;
+}
