@@ -180,6 +180,15 @@ text-align: center;
   animation: announcment-animation 1000ms linear infinite;
 }
 
+.announcments li{
+  display: inline-block;
+}
+
+.announcments div{
+  margin-left: 50px;
+  margin-top: -30px;
+}
+
 @keyframes announcment-animation{
   from{
     background-color: #fff;
